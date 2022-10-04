@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Java servlet API</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Juros Simples</h1>
+        
+        <form action="/aula05Api/raphael-juros-simples.json">
+            <input name="C" value="1" type="number" > <br>
+            <input name="i" value="1" type="number" > <br>
+            <input name="t" value="1" type="number" > 
+            <input type="submit" > 
+        </form>
+        
+        <h1>Juros Composto</h1>
+        <form action="/aula05Api/raphael-juros-composto.json">
+            <label>Capital</label>
+            <input name="C" value="1" type="number" > <br>
+            <label>Taxa</label>
+            <input name="i" value="1" type="number" > <br>
+            <label>Tempo de aplicação</label>
+            <input name="t" value="1" type="number" > <br>
+            <label></label>
+            <input type="submit" > 
+        </form>
+        
+    </body>
+</html>
